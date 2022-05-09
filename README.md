@@ -7,7 +7,9 @@ Página web criada em HTML, CSS com layout responsivo para mobile, tablets e des
 
 Deploy:https://paru369.github.io/SpaceCream/
 
-<img height="300px" src="https://github.com/Paru369/SpaceCream/blob/main/assets/Screenshot01.png"><img height="300px"src="https://github.com/Paru369/SpaceCream/blob/main/assets/Screenshot2.png"><img height="300px"src="https://github.com/Paru369/SpaceCream/blob/main/assets/Screenshot3.png"> 
+<img height="300px" src="https://github.com/Paru369/SpaceCream/blob/main/assets/Screenshot01.png">
+<img height="300px"src="https://github.com/Paru369/SpaceCream/blob/main/assets/Screenshot2.png">
+<img height="300px"src="https://github.com/Paru369/SpaceCream/blob/main/assets/Screenshot3.png"> 
 
 
 
