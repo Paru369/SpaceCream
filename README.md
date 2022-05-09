@@ -13,7 +13,7 @@ Deploy:https://paru369.github.io/SpaceCream/
 
 
 
-## 🚀 Em excucução 
+## 🚀 
 
 https://paru369.github.io/SpaceCream/
 
@@ -27,7 +27,7 @@ Não carece de instalação
 
 ## 📦 Desenvolvimento
 
-É uma página HTML estilizada em CSS, aplicável em qualquer sistema WEB
+É uma página HTML estilizada em CSS, aplicável em sistemas WEB
 
 ## 🛠️ Construído com
 
