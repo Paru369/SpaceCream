@@ -1,17 +1,19 @@
-# HZC-Skate-Community
+# Space CREAM
 
-Página web criada em HTML, CSS e um poquinho de JS a partir de layout no figma.
-Projeto parte da formação HTML e CCS da Alura
+Página web criada em HTML, CSS com layout responsivo para mobile, tablets e desktop
 
-Deploy:https://paru369.github.io/HZC-Skate-Community/
 
-<img src="./assets/img/gif.gif"> 
+
+
+Deploy:https://paru369.github.io/SpaceCream/
+
+<img height="300px" src="https://github.com/Paru369/SpaceCream/blob/main/assets/Screenshot01.png"><img height="300px"src="https://github.com/Paru369/SpaceCream/blob/main/assets/Screenshot2.png"><img height="300px"src="https://github.com/Paru369/SpaceCream/blob/main/assets/Screenshot3.png"> 
 
 
 
 ## 🚀 Em excucução 
 
-Contém as páginas iniciais
+https://paru369.github.io/SpaceCream/
 
 ### 📋 Pré-requisitos
 
