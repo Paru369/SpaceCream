@@ -1,0 +1,551 @@
+*{
+
+  margin:0;
+  border: 0;
+  box-sizing: border-box;
+
+ 
+
+}
+
+
+:root{
+
+
+  /*  VARIAVEIS */
+
+  /* CORES */
+
+  --bg-header:  #8E9AAF;
+  --bg-main: #EFF1FF;
+  --bg-title: #CBC0D3;
+  --bg-h2: #FEEAFA;
+  --fc-h2: #4A4E69;
+  --fc-p:#23053A;
+  --fc-tittle: #ffffff;
+
+  /* FONTES */
+  --ff-header: 'Staatliches', sans-serif;
+  --ff-main: 'Palanquin', sans-serif;
+  --ff-desktop: 'Roboto', sans-serif;
+  --ff-footer: 'Open Sans', sans-serif;
+
+  font-size: 62.5% /*1rem = 10px*/;
+
+}
+
+.page{
+
+min-width: 38.4rem;
+max-width: 120rem;
+
+
+}
+
+main{
+  display: grid;
+  gap: 3.2rem;
+  text-align: center;
+  background-color: var(--bg-main);
+}
+
+
+header{
+
+background-color: var(--bg-header);
+height: 27.9rem;
+left: 0px;
+top: 0px;
+text-align: center;
+padding-top: 32px;
+
+}
+
+header svg{
+  
+  width: 137px;
+  height: 137px;
+  
+}
+
+
+header h1{
+
+ 
+  font-family: var(--ff-header);
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 3.4rem;
+  color: var(--fc-tittle);
+  letter-spacing: 0.05em;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  padding-top: 8px;
+}
+
+header .title{
+  
+  background-color: var(--bg-title);
+  height: 4.9rem;
+  margin-top: 32px;
+  
+}
+
+
+
+.subtitle{
+  background-color: var(--bg-main);
+  padding-top: 1.4rem;
+  padding-bottom: 6.3rem;
+}
+  
+
+.subtitle p{
+
+font-family: var(--ff-main);
+font-size: 1.4rem;
+line-height: 1.5rem;
+font-weight: 400;
+color: var(--fc-p);
+width: 32rem;
+text-align: center;
+margin: 0 auto;
+
+
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6{
+  position: relative;
+  width: 32rem;
+  margin: 0 auto;
+  
+
+}
+
+.card1 img, .card3 img, .card5 img{
+
+  width: 32rem;
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 20px;
+  animation: downtop 600ms 300ms;
+  transition-timing-function: ease;
+}
+
+.card4 img, .card2 img, .card6 img{
+
+  width: 32rem;
+  height: 45rem;
+  object-fit: cover;
+  border-radius: 20px;
+  animation: downtop 600ms 300ms;
+  transition-timing-function: ease;
+}
+
+
+
+.card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2{
+
+  font-family: var(--ff-header);
+  color: var(--fc-h2);
+  font-weight: 400;
+  font-size: 2.0rem;
+  line-height: 3.4rem;
+  background-color: var(--bg-h2);
+  border-radius: 2rem;
+  align-items: center;
+  width: 11.2rem;
+
+  position: absolute;
+  top:1.6rem;
+  right:1.6rem;
+  opacity: 1;
+
+  animation: topdown 600ms 300ms;
+  transition-timing-function: ease;
+  z-index: +1;
+
+
+}
+
+.card1 img:hover,.card2 img:hover,.card3 img:hover,.card4 img:hover,.card5 img:hover,.card6 img:hover{
+
+  transform: scale(1.05);
+  opacity: 0.8;
+  filter: brightness(1) ;
+  }
+
+  footer{
+    background-color: var(--bg-main);
+    height: 3.2rem;
+    font-family: var(--ff-footer);
+    text-align: center;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--fc-p);
+
+    
+  }
+
+  footer p {
+    display:none;
+    }
+
+  footer a{
+
+    text-decoration: none;
+    color: var(--fc-p);
+
+
+  }
+
+@keyframes topdown {
+    0%{
+      opacity: 0;
+      transform: translatey(-25px);
+    }
+     
+  
+    100%{
+      opacity: 1;
+      transform: translatey(0);
+    }
+     
+    
+  }
+  
+  @keyframes downtop {
+  
+    0%{
+      opacity: 0;
+      transform: translatey(15px);
+    }
+
+
+
+
+    100%{
+        opacity: 1;
+      transform: translatey(0);
+    }
+    
+  }
+
+  @media (min-width: 700px){
+ 
+
+  
+    main{
+
+      grid-template-columns: 1fr 1fr;
+      padding: 3.2rem;
+      gap: 3.2rem;
+     
+    }
+
+    .card1, .card2, .card3, .card4, .card5, .card6{
+      position: relative;
+      width: 100%;
+     
+    
+    }
+
+    .card1 img, .card3 img, .card5 img, .card2 img, .card4 img, .card6 img{
+
+      height: 25rem;
+      width: 100%;
+    }
+
+  .subtitle{
+    background-color: var(--bg-header);
+    padding-top: 1rem;
+    padding-bottom: 3.3rem;
+  }
+    
+  
+  .subtitle p{
+  
+    font-family: var(--ff-main);
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: var(--fc-tittle);
+    width: 70rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+  }
+  
+}
+  
+
+
+  
+@media (min-width: 900px){
+
+  .page{
+
+    display: flex;
+    flex-direction: row;
+    max-width: 1280px;
+    max-height: 720px;
+    margin: 0 auto;
+    
+  } 
+
+  .desk{
+    display: flex;
+    flex-direction:column;
+    max-width: 37.7rem;
+    max-height: 720px;
+
+  }
+    
+
+  .subtitle{
+    background-color: var(--bg-header);
+    padding-top: 1.4rem;
+    padding-bottom: 6.3rem;
+    height: 100%;
+  }  
+     
+      
+  .subtitle p{
+    
+    font-family: var(--ff-main);
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2rem;
+    
+    color: var(--fc-tittle);
+    width: 37.7rem;
+    text-align: center;
+    margin: 0 auto;
+   max-height: 42rem;
+  } 
+
+  footer p {
+    display: block;
+  }
+
+  .card1, .card2, .card3, .card4, .card5, .card6{
+    position: relative;
+    min-width: 22rem;
+    margin: 0 auto;
+  }  
+
+  .card1 img, .card3 img, .card5 img{
+
+    width: 22rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 20px;
+  }   
+
+  .card4 img, .card2 img, .card6 img{
+      
+    width: 22rem;
+    height: 35rem;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  main{
+
+    -height: 720px;
+    margin: 0 auto;
+    grid-template-areas: 
+    "colA colB colC"
+    "colD colB colF"
+    "colD colE colF";
+  }
+   
+  main div:nth-child(1){
+
+    grid-area: colA;
+
+  }
+
+  main div:nth-child(2){
+
+    grid-area: colB;
+
+  }
+
+  main div:nth-child(3){
+
+    grid-area: colC;
+
+  }
+
+  main div:nth-child(4){
+
+    grid-area: colD;
+
+  }
+
+  main div:nth-child(5){
+
+    grid-area: colE;
+
+  }
+
+  main div:nth-child(6){
+
+    grid-area: colF;
+
+  }  
+
+  @keyframes img5 {
+  
+    0%{
+      opacity: 0;
+      transform: translatey(25px);
+    }
+
+    100%{
+        opacity: 1;
+      transform: translatey(0);
+    }
+    
+  }
+
+
+  @keyframes img2 {
+
+    0%{
+      opacity: 0;
+      transform: translatey(-35px); 
+    }
+    100%{
+        opacity: 1;
+      transform: translatex(0) translatey(0);
+  }
+    
+  }
+
+
+
+  @keyframes img1 {
+
+    0%{
+      opacity: 0;
+      transform: translatex(-35px) translatey(-35px);
+    }
+    100%{
+        opacity: 1;
+      transform: translatex(0) translatey(0);
+  }
+}
+
+
+  @keyframes img3 { 
+
+    0%{
+      opacity: 0;
+      transform: translatex(35px) translatey(-35px);   
+
+    }
+
+    100%{
+        opacity: 1;
+      transform: translatex(0) translatey(0);
+      
+    }
+    
+  }
+
+
+  @keyframes img4 {
+
+    0%{
+      opacity: 0;
+      transform: translatey(35px);  
+
+    }
+
+    100%{
+        opacity: 1;
+      transform: translatex(0) translatey(0);
+    }
+    
+  }
+
+  @keyframes img6 {
+
+    0%{
+      opacity: 0;
+      transform: translatex(25px) translatey(35px); 
+
+    }
+
+    100%{
+        opacity: 1;
+      transform: translatex(0) translatey(0);
+    }
+    
+  }
+
+  @keyframes label {
+
+    0%{
+      opacity: 0;
+      transform: scale(0); 
+
+    }
+
+    80%{
+        opacity: 1;
+        transform: scale(1.2); 
+    }
+
+    100%{
+      opacity: 1;
+      transform:matrix3d(1); 
+  }
+    
+  }
+  
+  .card1 img{
+    animation: none;
+    animation: img1 1600ms 300ms;
+    transition-timing-function: ease;
+  }
+
+
+  .card2 img{
+    animation: none;
+    animation: img2 1600ms 300ms;
+    transition-timing-function: ease;
+  }
+  .card5 img{
+    animation: none;
+    animation: img5 1600ms 300ms;
+    transition-timing-function: ease;
+  }
+  .card3 img{
+    animation: none;
+    animation: img3 1600ms 300ms;
+    transition-timing-function: ease;
+  }
+  .card4 img{
+    animation: none;
+    animation: img4 1600ms 300ms;
+    transition-timing-function: ease;
+  }
+  .card6 img{
+    animation: none;
+    animation: img6 1600ms 300ms;
+    transition-timing-function: ease;
+  }
+
+  .card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2, .card6 h2, svg{
+
+    animation: label 600ms 300ms;
+    transition-timing-function: ease; 
+   
+
+  }
+}
