@@ -1,6 +1,8 @@
 # Space CREAM
 
-Página web criada em HTML, CSS com layout responsivo para mobile, tablets e desktop
+Página web criada em HTML, CSS com layout responsivo para mobile, tablets e desktop.
+
+Layout proposto a partir de um design FIGMA
 
 
 
