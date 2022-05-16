@@ -1,8 +1,6 @@
 # Space CREAM
 
-Página web criada em HTML, CSS com layout responsivo para mobile, tablets e desktop.
-
-Layout proposto a partir de um design FIGMA
+Webpage created in HTML, CSS and resposive layout for cellphones and tablets.
 
 
 
@@ -19,40 +17,37 @@ Deploy:https://paru369.github.io/SpaceCream/
 
 https://paru369.github.io/SpaceCream/
 
-### 📋 Pré-requisitos
+### 📋 Requirements
 
-Executável em qualquer navegador
+none
 
-### 🔧 Instalação
+### 🔧 Install
 
-Não carece de instalação
+none
 
-## 📦 Desenvolvimento
+## 📦 Develompment
 
-É uma página HTML estilizada em CSS, aplicável em sistemas WEB
+Web page in HTML and stylized in CSS
+
 
 ## 🛠️ Construído com
 
 <img align="center" alt="HTML" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/html-1.svg"><img align="center" alt="CSS" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/css-3.svg"><img align="center" alt="JS" height="30" width="40" src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg">
 
 
-## 📌 Versão
+## 📌 VVersion
 
-em construção
+single version
 
-## ✒️ Autores
+## ✒️ Authors
 
  * **Rocketseat**
 
-* **Paulo Victor Pinheiro** - *Trabalho Inicial* - [Paru - Paulo Victor](https://www.linkedin.com/in/paulo-pinheiro-4a94b0150/)
+* **Paulo Victor Pinheiro** - [Paru - Paulo Victor](https://www.linkedin.com/in/paulo-pinheiro-4a94b0150/)
 
 
 
-
-## 🎁 Agradecimentos
-
-* Alura e instrutor Matheus Alberto
 
 
 ---
-⌨️ com ❤️ por [Paulo Victor](https://gist.github.com/Paru369) 😊
+⌨️ with ❤️ by [Paulo Victor](https://gist.github.com/Paru369) 😊
