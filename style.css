@@ -12,9 +12,9 @@
 :root{
 
 
-  /*  VARIAVEIS */
+  /*  VARIABLES */
 
-  /* CORES */
+  /* COLORS */
 
   --bg-header:  #8E9AAF;
   --bg-main: #EFF1FF;
@@ -24,7 +24,7 @@
   --fc-p:#23053A;
   --fc-tittle: #ffffff;
 
-  /* FONTES */
+  /* FONTS */
   --ff-header: 'Staatliches', sans-serif;
   --ff-main: 'Palanquin', sans-serif;
   --ff-desktop: 'Roboto', sans-serif;
